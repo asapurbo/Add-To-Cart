@@ -21,7 +21,7 @@ const Form = () => {
     const { value } = e.target;
     setInput((prevInput) => ({ ...prevInput, [keysName]: value }));
   };
-  console.log(input);
+  
   return (
     <div className="formContainer">
       <h4 className="formTitle">Add New Product</h4>
